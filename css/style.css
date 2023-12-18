@@ -206,6 +206,12 @@ footer {
     margin-right: 5px;
 }
 
+/* Estilo para o mapa */
+#contact-info iframe {
+    width: 100%;
+    height: 300px; /* Ajuste a altura conforme necessário */
+}
+
 /* Responsividade */
 
 @media screen and (min-width: 769px) {
@@ -281,6 +287,12 @@ footer {
         max-width: 100%;
         /* Faz o formulário e as informações de contato ocuparem 100% da largura disponível */
     }
+
+    @media only screen and (max-width: 768px) {
+    #contact-info iframe {
+        height: 200px; /* Ajuste a altura conforme necessário para telas menores */
+    }
+}
 
 }
 
